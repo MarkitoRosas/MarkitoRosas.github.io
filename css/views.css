@@ -14,20 +14,21 @@ body {
 
 
 .sidebar {
+    
     height: 100%;
-    width: 250px;
-    position: fixed;
+    width: 200px;
+    position:fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: rgba(20, 20, 20, 0.829);
+    background-color: rgb(20, 20, 20);
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
 }
 
 .sidebar a {
-    padding: 8px 8px 8px 32px;
+    padding: 8px 8px 8px 15px;
     text-decoration: none;
     font-size: 25px;
     color: #ffffff;
@@ -138,14 +139,14 @@ body {
     transition: margin-left .5s;
     text-align: center;
     float: center;
-    position: relative;
+    position: center;
     max-width: 100%;
-    min-height: 99vh;
-    height: auto;
-    width: auto;
-    margin-left: 250px;
+    min-height: 100vh;
+    height:fit-content;
+    width: fit-content;
+    margin-left:230px;
     color: #000000;
-    background-color: rgba(255, 251, 251, 0.384);
+    background-color: rgba(251, 252, 255, 0.979);
 }
 
 #main .tituloprincipal {
@@ -205,23 +206,23 @@ body {
 }
 
 #clientes {
-    background-color: #068368;
+    background-color: #04aec4;
 }
 
 #servicio {
-    background-color: #94a351;
+    background-color: #04aec4ec;
 }
 
 #trabajadores {
-    background-color: #18df93;
+    background-color: #04aec4c5;
 }
 
 #reporteventas {
-    background-color: #3f353531;
+    background-color: #04a7c444;
 }
 
 #nuevaventas {
-    background-color: #bd11df;
+    background-color: #04aec48e;
 }
 
 
